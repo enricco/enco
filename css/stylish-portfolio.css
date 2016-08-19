@@ -5,7 +5,6 @@
  */
 
 /* Global Styles */
-
 html,
 body {
     width: 100%;
@@ -13,8 +12,18 @@ body {
 }
 
 .logo {
-    height: 150px;
+    height: 120px;
     width: auto;
+    opacity: 0.3;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.logo:hover{
+    opacity: 1;
+    -webkit-filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.1));
+    
 }
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -29,15 +38,30 @@ body {
 .arrow-down {
     position: absolute;
     bottom: 50px;
-    
+    color: #6c5f47;
 }
 
 .arrow-down2 {
     position: absolute;
     bottom: px;
     top: px;
+    font-size: 20px;
     padding-top: 200px;
-    color: #000;
+    color: #1a1a1a;
+}
+.arrow-down2:hover {
+    color: #404040;
+}
+
+.arrow-down3 {
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    right: auto;
+    color: #fff;
+}
+.arrow-down3:hover {
+    color: #e6e6e6;
 }
 .arrow-down i {
     color: #fff;  
@@ -58,14 +82,16 @@ body {
     background-color: rgba(0,0,0,0.4);
 }
 .btn-ig{
-    border-color: #000;
+    border-color: #262626;
     border-radius: 0;
+    border: 1px solid;
     margin-top: 30px;
-    color: #000;
+    color: #262626;
 }
 .btn-ig:hover {
-    border-color: #595959;
-    color: #595959;
+    color:#404040 ;
+    border-color: #404040;
+    width: 10%;
 }
 .btn-dark:hover,
 .btn-dark:focus,
@@ -77,14 +103,14 @@ body {
 .btn-light {
     border-radius: 0;
     color: #333;
-    background-color: rgb(255,255,255);
+    background-color: #8a7a5a;
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
     color: #333;
-    background-color: rgba(255,255,255,0.8);
+    background-color: #6c5f47;
 }
 
 /* Custom Horizontal Rule */
@@ -109,6 +135,7 @@ hr.small {
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    opacity: .9;
 }
 
 .sidebar-nav {
@@ -134,7 +161,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background: #6c5f47;
 }
 
 .sidebar-nav li a:active,
@@ -154,7 +181,7 @@ hr.small {
 
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
-    background: none;
+    background: #6c5f47;
 }
 
 #menu-toggle {
@@ -162,6 +189,8 @@ hr.small {
     position: fixed;
     top: 0;
     right: 0;
+    background: none;
+    color: #6c5f47;
 }
 
 #sidebar-wrapper.active {
@@ -185,13 +214,27 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: #1a1a1a;
+    background: ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
 /* About */
 h2{
     font-weight: 700;
@@ -206,12 +249,21 @@ h2{
     padding: 250px 0;
     padding-left: auto;
     padding-right: auto;
+    background: #8A7A5A;
+    color: #262626;
 }
 
 /* Services */
-
+img{
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 .services {
-    padding: 50px 0;
+    padding: 160px 0;
     background-color: #1a1a1a;
     color: #8A7A5A;
 }
@@ -225,6 +277,23 @@ h2{
 .img-portdua{
     width: 70%;
     margin-top: 20px;
+    opacity: .7;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+.img-portdua:hover{
+    opacity: 1;
+}
+.img-port4{
+    height: 120px;
+    opacity: .9;
+    margin-top: 10px;
+}
+.img-port5{
+    height: 120px;
+    
 }
 .service-item {
     margin-bottom: 30px;
@@ -235,19 +304,14 @@ h2{
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
-    color: #fff;
-    background: #1a1a1a;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    height: 700px;
+    background: #8A7A5A;
 }
-
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding: 350px 0;
+    background: #1a1a1a;
 }
 
 .portfolio-item {
@@ -266,34 +330,32 @@ h2{
 
 .call-to-action {
     padding: 50px 0;
+    background: #8A7A5A;
 }
 
 .call-to-action .btn {
     margin: 10px;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
 /* Footer */
 
 footer {
     padding: 100px 0;
+    background: #8A7A5A;
+    color: #262626;
+    font-size: 17px;
 }
-
+.copy{
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    right: auto;
+    top: 10px;
+    font-size: 12px;
+}
+.footer .fa{
+    margin-right: 10px;
+}
 #to-top {
   display: none;
   position: fixed;
