@@ -12,8 +12,7 @@ body {
 }
 
 .logo {
-    height: 120px;
-    width: auto;
+    width: 100px;
     opacity: 0.3;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
@@ -46,7 +45,7 @@ body {
     bottom: px;
     top: px;
     font-size: 20px;
-    padding-top: 200px;
+    padding-top: 150px;
     color: #1a1a1a;
 }
 .arrow-down2:hover {
@@ -55,7 +54,21 @@ body {
 
 .arrow-down3 {
     position: absolute;
-    top: 480px;
+    top: 450px;
+    left: 50%;
+    right: auto;
+    color: #fff;
+}
+.arrow-down4 {
+    position: absolute;
+    top: 315px;
+    left: 50%;
+    right: auto;
+    color: #000;
+}
+.arrow-down5{
+    position: absolute;
+    top: 290px;
     left: 50%;
     right: auto;
     color: #fff;
@@ -309,7 +322,7 @@ img{
 /* Portfolio */
 
 .portfolio {
-    padding: 350px 0;
+    padding: 300px 0;
     background: #1a1a1a;
 }
 
@@ -328,7 +341,7 @@ img{
 /* Call to Action */
 
 .call-to-action {
-    padding: 50px 0;
+    padding: 0px 0;
     background: #8A7A5A;
 }
 
