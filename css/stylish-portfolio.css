@@ -390,6 +390,24 @@ img{
     margin-left: 10%;
     margin-right: 10%;
 }
+.subtitle7{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.subtitle8{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+.subtitle11{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    padding-right:  90px;
+}
 .text-sampingkiri{
     text-align: left;
     font-size: 20px;
@@ -522,6 +540,24 @@ img{
     justify-content: center;
     align-items: center;
     background: #000;
+    color: #fff;
+    min-height: 250px;
+}
+.kesimpulan {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9e6b3d;
+    color: #fff;
+    min-height: 250px;
+}
+.kesimpulan2 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111111;
     color: #fff;
     min-height: 250px;
 }
