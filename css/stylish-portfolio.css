@@ -605,11 +605,11 @@ img{
 
 footer {
     padding: 100px 0;
-    background: #8A7A5A;
-    color: #262626;
+    background: #9e6b3d;
+    color: #fff;
     font-size: 17px;
 }
-.copy{
+.footer .copy{
     position: absolute;
     bottom: 0px;
     left: 40%;
