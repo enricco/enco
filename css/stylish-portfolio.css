@@ -381,7 +381,7 @@ img{
 }
 
 .subtitle2{
-    padding-right: 100px;
+    padding-right: 200px;
     font-size: 20px;
     margin-top: -10px;
 }
@@ -606,7 +606,7 @@ img{
 footer {
     padding: 100px 0;
     background: #9e6b3d;
-    color: #fff;
+    color: #111111;
     font-size: 17px;
 }
 .footer .copy{
