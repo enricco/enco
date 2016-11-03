@@ -48,6 +48,13 @@ body {
     right: auto;
     color: #fff;
 }
+.arrow-down50 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    right: auto;
+    color: #fff;
+}
 .arrow-down31 {
     position: absolute;
     top: 100%;
