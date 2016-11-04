@@ -418,15 +418,16 @@ img{
 }
 .subtitle11{
     font-size: 20px;
-    text-align: center;
-    margin-left: 50px;
-    padding-right:  90px;
+    text-align: left;
+    margin-left: 70px;
+    padding-right:  120px;
+    margin-top: -50px
 }
 .text-sampingkiri{
     text-align: left;
     font-size: 20px;
     margin-top: 0px;
-    padding-right: 50px;
+    padding-right: 20px;
     padding-left: 50px;
 }
 
@@ -571,24 +572,33 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #9e6b3d;
-    color: #fff;
+    background: #fff;
+    color: #111111;
     min-height: 250px;
+    margin-top: 20px
 }
 .kesimpulan2 {
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #111111;
-    color: #fff;
+    background: #fff;
+    color: #111111;
     min-height: 250px;
+    background-image: url("../img/kesimpulan.png")  ;
+    background-position: bottom left;
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
 
 .portfolio-item {
     margin-bottom: 30px;
 }
-
+.kesgam{
+    margin-left: 950px;
+    padding-top: 100px;
+    opacity: 0.7
+}
 .img-portfolio {
     margin: 0 auto;
 }
